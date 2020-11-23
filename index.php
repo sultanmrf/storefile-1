@@ -32,19 +32,14 @@ require_once("admin/includes/functions.php");
             transform: rotatex(2deg);
             box-shadow: 2px 2px 15px 1px #01FF70;
         }
-
-
-
     </style>
 
 </head>
-<body>
+<body dir="rtl">
 
 <?php
 require_once("front_layouts/header.php");
-$posts = getPostsForIndex(6, 'id', 'DESC');
-echo copy("text.txt","target.txt");
-
+$posts = getPostsForIndex(10, 'id', 'DESC');
 ?>
 
 <main class="rtl mt-5 col-12">
@@ -91,5 +86,6 @@ echo copy("text.txt","target.txt");
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script src="./popper.min.js"></script>
 <script src="./node_modules/bootstrap-v4-rtl/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>
