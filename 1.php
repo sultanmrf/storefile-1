@@ -23,19 +23,7 @@
 </form>
 
 <?php
-//$translations = [
 
-//    'fa' => [
-//        'Hello!' => 'درود!',
-//        'Hi!' => 'درود!'
-//    ],
-//    'fr' => [
-//        'Hello!' => 'Bonjour!'
-//    ]
-//];
-//$r=["1","2","3"];
-//setcookie("reply", json_encode($r), time() + 3600);
-//var_dump($_COOKIE['reply']);
 if(isset($_POST['Reminder']) && isset($_POST['email'])) {
 
     $email=$_POST['email'];
